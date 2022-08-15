@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.lalyos:jfiglet:0.0.9'
+    implementation 'org.junit.jupiter:junit-jupiter:5.9.0'
+}
+
+application {
+    mainClass = 'com.tomgregory.ASCIIArtGenerator'
+}
+
+test {
+    useJUnitPlatform()
+}
