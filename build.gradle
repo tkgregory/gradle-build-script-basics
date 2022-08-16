@@ -2,6 +2,10 @@ plugins {
     id 'application'
 }
 
+application {
+    mainClass = 'com.tomgregory.ASCIIArtGenerator'
+}
+
 repositories {
     mavenCentral()
 }
@@ -11,10 +15,16 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
 }
 
-application {
-    mainClass = 'com.tomgregory.ASCIIArtGenerator'
-}
-
 test {
     useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes('Main-Class': 'com.tomgregory.ASCIIArtGenerator')
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
