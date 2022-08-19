@@ -28,3 +28,9 @@ $ ./gradlew run --args Gradle
 BUILD SUCCESSFUL in 1s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
+
+## Code
+
+* [SimpleASCIIArtGenerator.java](src/main/java/com/tomgregory/SimpleASCIIArtGenerator.java) is used in the 1st part of the tutorial.
+* [ASCIIArtGenerator.java](src/main/java/com/tomgregory/ASCIIArtGenerator.java) is used in the 2nd part of the tutorial.
+
