@@ -1,9 +1,9 @@
 [![CI](https://github.com/tkgregory/gradle-build-script-basics/actions/workflows/gradle.yml/badge.svg)](https://github.com/tkgregory/gradle-build-script-basics/actions/workflows/gradle.yml)
 
-Accompanies *[Learn the Gradle Build Script Basics in 12 Minutes](https://youtu.be/-PgdjodNf7I)* tutorial. Demonstrates use of basic Gradle build script concepts.
+Demonstrates use of basic Gradle build script concepts.
 
-
-
+Check out the YouTube video for full details. 👇<br/>
+[<img src="Gradle build script basics thumbnail.png" width="500"/>](https://youtu.be/-PgdjodNf7I)
 ## Running
 
 Creates ASCII art from the provided single word. Also adds 
